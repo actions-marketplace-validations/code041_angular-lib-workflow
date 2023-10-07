@@ -1,4 +1,5 @@
 name: publishing-libraries
+description: A simple pipeline for publishing angular libraries do github npm
 run-name: ${{ github.actor }} is publishing libraries to private registry
 on:
   release:
